@@ -333,7 +333,7 @@ export function welcomeEmail(name: string): MailContent {
     <p>Desde tu cuenta puedes comprar más rápido y seguir el estado de tus pedidos.</p>
     ${button(`${env.FRONTEND_URL}/`, "Ver la colección")}`;
   return {
-    subject: "Bienvenida a Mayumy Chang",
+    subject: "Bienvenida a Luminous Jewelers",
     html: layout("Bienvenida", body),
   };
 }

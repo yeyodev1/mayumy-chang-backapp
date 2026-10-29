@@ -26,7 +26,7 @@ export const DEFAULT_SHIPPING = {
   freeFromCents: 0,
   pickupEnabled: true,
   pickup: {
-    name: "Showroom Mayumy Chang",
+    name: "Showroom Luminous Jewelers",
     address: "Guayaquil (con cita previa)",
     city: "Guayaquil",
     hours: "Lun a Sáb · con cita",
@@ -129,4 +129,4 @@ export type LeadStatus = (typeof LEAD_STATUSES)[number];
 
 export const PAYMENT_CURRENCY = "USD";
 
-export const BRAND_NAME = "Mayumy Chang";
+export const BRAND_NAME = "Luminous Jewelers";

@@ -45,7 +45,7 @@ export const MAIL_COLORS = {
 };
 
 /**
- * Plantilla base de Mayumy Chang: fondo crema, texto casi negro, serif en
+ * Plantilla base de Luminous Jewelers: fondo crema, texto casi negro, serif en
  * títulos y mucho aire. Todo inline porque los clientes de correo ignoran
  * las hojas de estilo.
  */
@@ -56,15 +56,14 @@ export function layout(title: string, body: string): string {
     <tr><td align="center">
       <table width="560" cellpadding="0" cellspacing="0" style="max-width:560px;width:100%;background:#ffffff;border:1px solid ${LINE}">
         <tr><td style="padding:32px 36px 24px;text-align:center;border-bottom:1px solid ${LINE}">
-          <span style="font-family:Georgia,'Times New Roman',serif;color:${INK};font-size:22px;letter-spacing:4px;text-transform:uppercase">Mayumy Chang</span><br />
-          <span style="color:${MUTED};font-size:10px;letter-spacing:4px;text-transform:uppercase">Alta Joyería</span>
+          <img src="${env.FRONTEND_URL}/brand/luminous-lockup-gold.png" width="240" alt="Luminous Jewelers" style="display:inline-block;width:240px;max-width:70%;height:auto;border:0;color:${INK};font-family:Georgia,'Times New Roman',serif;font-size:22px;letter-spacing:4px" />
         </td></tr>
         <tr><td style="padding:36px;color:${INK};font-size:15px;line-height:1.7">
           <h1 style="margin:0 0 20px;font-family:Georgia,'Times New Roman',serif;font-weight:normal;font-size:24px;color:${INK}">${title}</h1>
           ${body}
         </td></tr>
         <tr><td style="padding:20px 36px;background:${CREAM};color:${MUTED};font-size:11px;line-height:1.6;letter-spacing:1px;text-align:center">
-          Mayumy Chang · Alta Joyería<br />
+          Luminous Jewelers · Alta joyería de Mayumy Chang<br />
           Guayaquil, Ecuador · © ${new Date().getFullYear()}
         </td></tr>
       </table>

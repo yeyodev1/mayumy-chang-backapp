@@ -2,7 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-API de la tienda de **Mayumy Chang · Alta Joyería** (adaptada de DogTown). El contrato vive en `../CONTRATO-API.md`.
+API de la tienda de **Luminous Jewelers** (alta joyería de Mayumy Chang) (adaptada de DogTown). El contrato vive en `../CONTRATO-API.md`.
 
 ## Commands
 
