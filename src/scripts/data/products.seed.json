@@ -1,0 +1,130 @@
+{
+  "_nota": "Precios PROVISIONALES hasta que Mayumy envíe su lista. Imágenes servidas por el frontapp (/products/*.webp).",
+  "categories": [
+    { "slug": "aretes", "name": "Aretes", "blurb": "Luz a la altura de la mirada.", "order": 1 },
+    { "slug": "collares", "name": "Collares y dijes", "blurb": "Una pieza que se queda cerca.", "order": 2 },
+    { "slug": "sets", "name": "Sets", "blurb": "Collar y aretes, pensados juntos.", "order": 3 },
+    { "slug": "cadenas", "name": "Cadenas", "blurb": "La base de todo.", "order": 4 },
+    { "slug": "pulseras", "name": "Pulseras", "blurb": "Para las manos que hablan.", "order": 5 },
+    { "slug": "anillos", "name": "Anillos", "blurb": "Promesas que se usan a diario.", "order": 6 }
+  ],
+  "products": [
+    {
+      "name": "Set Heptágono Zafiro", "segment": "plata-925", "category": "sets", "line": "Heptágono", "stone": "zafiro",
+      "material": "Plata 925 · Circonias baguette azul zafiro",
+      "shortDescription": "Collar y aretes de siete baguettes azul profundo.",
+      "description": "Siete piedras talladas en baguette forman un heptágono abierto: una geometría que deja pasar la luz por el centro. El azul zafiro es el más intenso de la línea, pensado para quien quiere que se note sin decir nada.",
+      "details": ["PLATA 925", "7 BAGUETTES TALLADAS", "COLLAR 45 CM + ARETES DE PRESIÓN"],
+      "images": ["heptagono-zafiro-set", "heptagono-zafiro-collar-puesto", "heptagono-zafiro-arete-puesto", "heptagono-zafiro-collar-piel"],
+      "priceCents": 9500, "stock": 1, "isBestSeller": true, "isPieceOfMonth": true, "isFeatured": true, "order": 1
+    },
+    {
+      "name": "Aretes Heptágono Zafiro", "segment": "plata-925", "category": "aretes", "line": "Heptágono", "stone": "zafiro",
+      "material": "Plata 925 · Circonias baguette azul zafiro",
+      "shortDescription": "Siete baguettes azul profundo en heptágono abierto.",
+      "description": "El arete que da nombre a la línea. Ligero, con cierre de presión y una presencia que se ve desde lejos.",
+      "details": ["PLATA 925", "7 BAGUETTES TALLADAS", "CIERRE DE PRESIÓN"],
+      "images": ["heptagono-zafiro-arete-puesto", "heptagono-zafiro-set"],
+      "priceCents": 4800, "stock": 1, "isBestSeller": true, "order": 2
+    },
+    {
+      "name": "Collar Heptágono Zafiro", "segment": "plata-925", "category": "collares", "line": "Heptágono", "stone": "zafiro",
+      "material": "Plata 925 · Circonias baguette azul zafiro",
+      "shortDescription": "Dije heptagonal sobre cadena fina de plata.",
+      "description": "Un dije que cae justo bajo la clavícula. La cadena fina deja todo el protagonismo a las siete piedras.",
+      "details": ["PLATA 925", "CADENA 45 CM", "DIJE 1,8 CM"],
+      "images": ["heptagono-zafiro-collar-piel", "heptagono-zafiro-collar-puesto", "heptagono-zafiro-set"],
+      "priceCents": 5800, "stock": 1, "order": 3
+    },
+    {
+      "name": "Set Heptágono Esmeralda", "segment": "plata-925", "category": "sets", "line": "Heptágono", "stone": "esmeralda",
+      "material": "Plata 925 · Circonias baguette verde esmeralda",
+      "shortDescription": "Collar y aretes de siete baguettes verde esmeralda.",
+      "description": "El verde más vivo de la colección, tallado en baguette y montado en plata. Se lleva igual con negro que con blanco.",
+      "details": ["PLATA 925", "7 BAGUETTES TALLADAS", "COLLAR 45 CM + ARETES DE PRESIÓN"],
+      "images": ["heptagono-esmeralda-set", "heptagono-esmeralda-collar-puesto", "heptagono-esmeralda-arete-puesto", "heptagono-esmeralda-collar-mano"],
+      "priceCents": 9500, "stock": 1, "isBestSeller": true, "isFeatured": true, "order": 4
+    },
+    {
+      "name": "Aretes Heptágono Esmeralda", "segment": "plata-925", "category": "aretes", "line": "Heptágono", "stone": "esmeralda",
+      "material": "Plata 925 · Circonias baguette verde esmeralda",
+      "shortDescription": "Siete baguettes verdes en heptágono abierto.",
+      "description": "Verde esmeralda en una geometría limpia. El color justo para iluminar la cara.",
+      "details": ["PLATA 925", "7 BAGUETTES TALLADAS", "CIERRE DE PRESIÓN"],
+      "images": ["heptagono-esmeralda-arete-puesto", "heptagono-esmeralda-set"],
+      "priceCents": 4800, "stock": 1, "order": 5
+    },
+    {
+      "name": "Collar Heptágono Esmeralda", "segment": "plata-925", "category": "collares", "line": "Heptágono", "stone": "esmeralda",
+      "material": "Plata 925 · Circonias baguette verde esmeralda",
+      "shortDescription": "Dije heptagonal verde sobre cadena fina.",
+      "description": "Pequeño, preciso y con ese verde que no pasa desapercibido.",
+      "details": ["PLATA 925", "CADENA 45 CM", "DIJE 1,8 CM"],
+      "images": ["heptagono-esmeralda-collar-mano", "heptagono-esmeralda-collar-puesto-2", "heptagono-esmeralda-collar-puesto"],
+      "priceCents": 5800, "stock": 1, "isBestSeller": true, "order": 6
+    },
+    {
+      "name": "Set Heptágono Cristal", "segment": "plata-925", "category": "sets", "line": "Heptágono", "stone": "cristal",
+      "material": "Plata 925 · Circonias baguette transparentes",
+      "shortDescription": "Collar y aretes en cristal: pura luz.",
+      "description": "La versión más luminosa del heptágono. Circonias transparentes que reflejan todo lo que tienen alrededor.",
+      "details": ["PLATA 925", "7 BAGUETTES TALLADAS", "COLLAR 45 CM + ARETES DE PRESIÓN"],
+      "images": ["heptagono-cristal-set", "heptagono-cristal-collar-puesto", "heptagono-cristal-arete-puesto", "heptagono-cristal-collar-piel"],
+      "priceCents": 9500, "stock": 1, "isFeatured": true, "order": 7
+    },
+    {
+      "name": "Aretes Heptágono Cristal", "segment": "plata-925", "category": "aretes", "line": "Heptágono", "stone": "cristal",
+      "material": "Plata 925 · Circonias baguette transparentes",
+      "shortDescription": "Siete baguettes transparentes en heptágono abierto.",
+      "description": "Para todos los días y para las noches importantes. El arete que combina con todo.",
+      "details": ["PLATA 925", "7 BAGUETTES TALLADAS", "CIERRE DE PRESIÓN"],
+      "images": ["heptagono-cristal-arete-puesto", "heptagono-cristal-set"],
+      "priceCents": 4800, "stock": 1, "isBestSeller": true, "order": 8
+    },
+    {
+      "name": "Collar Heptágono Cristal", "segment": "plata-925", "category": "collares", "line": "Heptágono", "stone": "cristal",
+      "material": "Plata 925 · Circonias baguette transparentes",
+      "shortDescription": "Dije heptagonal de cristal sobre cadena fina.",
+      "description": "Brilla con la luz del día y con la de una vela. Discreto de lejos, impecable de cerca.",
+      "details": ["PLATA 925", "CADENA 45 CM", "DIJE 1,8 CM"],
+      "images": ["heptagono-cristal-collar-piel", "heptagono-cristal-collar-puesto", "heptagono-cristal-collar-puesto-2"],
+      "priceCents": 5800, "stock": 1, "order": 9
+    },
+    {
+      "name": "Aretes Heptágono Granate", "segment": "plata-925", "category": "aretes", "line": "Heptágono", "stone": "granate",
+      "material": "Plata 925 · Circonias baguette granate",
+      "shortDescription": "Siete baguettes rojo granate en heptágono abierto.",
+      "description": "El tono más cálido de la línea: un rojo profundo que cambia hacia el ámbar con la luz.",
+      "details": ["PLATA 925", "7 BAGUETTES TALLADAS", "CIERRE DE PRESIÓN"],
+      "images": ["heptagono-granate-aretes", "heptagono-granate-arete-puesto"],
+      "priceCents": 4800, "stock": 1, "isBestSeller": true, "isFeatured": true, "order": 10
+    },
+    {
+      "name": "Set Corona Citrino", "segment": "plata-925", "category": "sets", "line": "Corona", "stone": "citrino",
+      "material": "Plata 925 · Circonia redonda amarillo citrino · Microengaste",
+      "shortDescription": "Una piedra de sol con corazones calados por detrás.",
+      "description": "Una circonia redonda amarillo citrino sostenida por una corona de plata. Por detrás, corazones calados con microengaste: un secreto que solo ve quien la lleva.",
+      "details": ["PLATA 925", "TALLA BRILLANTE 10 MM", "CORONA CALADA CON CORAZONES"],
+      "images": ["corona-citrino-set", "corona-citrino-collar-puesto", "corona-citrino-set-reverso", "corona-citrino-macro"],
+      "priceCents": 11000, "stock": 1, "isBestSeller": true, "isFeatured": true, "order": 11
+    },
+    {
+      "name": "Aretes Corona Citrino", "segment": "plata-925", "category": "aretes", "line": "Corona", "stone": "citrino",
+      "material": "Plata 925 · Circonia redonda amarillo citrino · Microengaste",
+      "shortDescription": "Botón de luz amarilla con corona calada.",
+      "description": "El arete que ilumina. Corona de plata con microengaste y corazones calados en el reverso.",
+      "details": ["PLATA 925", "TALLA BRILLANTE 10 MM", "CIERRE DE MARIPOSA"],
+      "images": ["corona-citrino-arete-puesto", "corona-citrino-aretes-reverso", "corona-citrino-macro"],
+      "priceCents": 5500, "stock": 1, "order": 12
+    },
+    {
+      "name": "Collar Corona Citrino", "segment": "plata-925", "category": "collares", "line": "Corona", "stone": "citrino",
+      "material": "Plata 925 · Circonia redonda amarillo citrino · Microengaste",
+      "shortDescription": "Dije de corona con piedra amarillo citrino.",
+      "description": "Un dije que parece guardar el sol. Por delante, talla brillante; por detrás, corazones calados.",
+      "details": ["PLATA 925", "CADENA 45 CM", "DIJE 1,2 CM"],
+      "images": ["corona-citrino-collar-piel", "corona-citrino-collar-puesto", "corona-citrino-collar-reverso", "corona-citrino-collar-reverso-piel"],
+      "priceCents": 6200, "stock": 1, "isBestSeller": true, "order": 13
+    }
+  ]
+}
